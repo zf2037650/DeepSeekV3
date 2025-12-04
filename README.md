@@ -1,0 +1,3 @@
+对于DeepSeekV3的简单复现：
+MoE及MLP模块自主搭建，不涉及张量并行与专家并行等
+RoPE及RMSNorm等模块均未自主实现，直接调用torchtune
